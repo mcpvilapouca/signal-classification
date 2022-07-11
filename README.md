@@ -6,7 +6,7 @@
 
 🔸 The target classification is binary and renamed for privacy as 'class 0' and 'class 1', although it is easily adaptable for multiclass classification
 
-<img src="https://user-images.githubusercontent.com/95075305178309732-0c254f86-df91-417d-81e8-1b8fff13cf67.gif" width="600">
+<img src="https://user-images.githubusercontent.com/95075305/178361907-f6431ce0-a645-4cf5-9777-0525cc7185ae.gif" width="400">
 
 ### Prepare data and resample
 
