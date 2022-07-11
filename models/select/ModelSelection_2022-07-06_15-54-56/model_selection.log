@@ -1,0 +1,66 @@
+2022-07-06 15:54:56,017 INFO     
+_______________Start Model Selection__________________
+
+2022-07-06 15:54:56,018 INFO     data filename: data/processed/data_extracted_selected_features_2022-07-05_16-58-17.pkl
+
+2022-07-06 15:54:56,018 INFO     Normalized data: yes
+
+2022-07-06 15:54:56,018 INFO     Config: ['Remove outliers: no', 'Segment number: 10', 'Signal type: raw', 'Feature Selection: yes', 'Upper correlation: 0.85', 'Lower correlation: 0.05']
+
+2022-07-06 15:54:56,020 INFO     
+X_train: (777, 160)
+y_train: (777,)
+2022-07-06 15:54:56,834 INFO     
+--------knn---------
+Maximum Accuracy: 0.8333333333333334
+Minimum Accuracy: 0.6967741935483871
+Standard Deviation: 0.03122553136330566
+
+Overall Accuracy: 0.7866046319272126
+
+
+2022-07-06 15:54:57,109 INFO     
+--------svm---------
+Maximum Accuracy: 0.8709677419354839
+Minimum Accuracy: 0.7225806451612903
+Standard Deviation: 0.023398013201773288
+
+Overall Accuracy: 0.8135177832919767
+
+
+2022-07-06 15:54:59,256 INFO     
+--------rf---------
+Maximum Accuracy: 0.9032258064516129
+Minimum Accuracy: 0.7935483870967742
+Standard Deviation: 0.025753469747113032
+
+Overall Accuracy: 0.8428577336641854
+
+
+2022-07-06 15:55:21,648 INFO     
+--------gb---------
+Maximum Accuracy: 0.8774193548387097
+Minimum Accuracy: 0.7806451612903226
+Standard Deviation: 0.02331766823261245
+
+Overall Accuracy: 0.8298577336641852
+
+
+2022-07-06 15:55:21,691 INFO     
+--------dummy---------
+Maximum Accuracy: 0.632258064516129
+Minimum Accuracy: 0.6282051282051282
+Standard Deviation: 0.00200568331728404
+
+Overall Accuracy: 0.6306368899917287
+
+
+2022-07-06 15:55:24,533 INFO     
+--------xgb---------
+Maximum Accuracy: 0.896774193548387
+Minimum Accuracy: 0.7483870967741936
+Standard Deviation: 0.027118014620592802
+
+Overall Accuracy: 0.8268966087675765
+
+

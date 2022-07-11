@@ -1,0 +1,28 @@
+2022-07-08 17:00:29,560 INFO     data filename: data/processed/data_extracted_selected_features_2022-07-08_16-41-07.pkl
+
+2022-07-08 17:00:29,560 INFO     Normalized data: yes
+
+2022-07-08 17:00:29,560 INFO     Config: ['Remove outliers: yes', 'Segment number: 10', 'Signal type: raw', 'Feature Selection: yes', 'Upper correlation: 0.85', 'Lower correlation: 0.05']
+
+2022-07-08 17:00:29,564 INFO     
+X_train: (607, 198)
+y_train: (607,)
+2022-07-08 17:00:29,564 INFO     
+X_test: (68, 198)
+y_test: (68,)
+2022-07-08 17:00:29,565 INFO     Model: XGBoost
+
+2022-07-08 17:00:29,565 INFO     Start randomized search...
+2022-07-08 17:04:10,269 INFO     ...finish
+
+2022-07-08 17:04:10,269 INFO     Best parameters:
+{'model__subsample': 0.4, 'model__scale_pos_weight': 0.9, 'model__reg_lambda': 1.8, 'model__reg_alpha': 0.0, 'model__n_estimators': 108, 'model__min_child_weight': 4, 'model__max_depth': 27, 'model__learning_rate': 0.01, 'model__gamma': 1.3}
+2022-07-08 17:04:10,270 INFO     
+Best score:
+0.8550602899336133
+
+
+2022-07-08 17:04:10,495 INFO     
+Test set accuracies BEST ESTIMATOR
+XGBoost: 0.8823529411764706
+

@@ -1,0 +1,28 @@
+2022-07-11 14:47:48,906 INFO     data filename: data/processed/data_extracted_selected_features_2022-07-08_16-41-07.pkl
+
+2022-07-11 14:47:48,906 INFO     Normalized data: yes
+
+2022-07-11 14:47:48,906 INFO     Config: ['Remove outliers: yes', 'Segment number: 10', 'Signal type: raw', 'Feature Selection: yes', 'Upper correlation: 0.85', 'Lower correlation: 0.05']
+
+2022-07-11 14:47:48,910 INFO     
+X_train: (607, 198)
+y_train: (607,)
+2022-07-11 14:47:48,910 INFO     
+X_test: (68, 198)
+y_test: (68,)
+2022-07-11 14:47:48,910 INFO     Model: RandomForest
+
+2022-07-11 14:47:48,910 INFO     Start randomized search...
+2022-07-11 14:55:31,922 INFO     ...finish
+
+2022-07-11 14:55:31,922 INFO     Best parameters:
+{'model__n_estimators': 70, 'model__min_samples_split': 11, 'model__min_samples_leaf': 8, 'model__max_features': 12, 'model__max_depth': 96}
+2022-07-11 14:55:31,922 INFO     
+Best score:
+0.8517409565099581
+
+
+2022-07-11 14:55:32,101 INFO     
+Test set accuracies BEST ESTIMATOR
+RandomForest: 0.8382352941176471
+
